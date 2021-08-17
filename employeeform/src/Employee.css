@@ -1,0 +1,57 @@
+/* #title {
+    text-align: center;
+    font-family: Arial, sans-serif;
+} */
+
+#employeetable {
+    text-align: center;
+    font-family: "Trebucher MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+}
+
+#employeetable td, #employeetable th {
+    /* border: 1px solid #ddd; */
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#employeetable tr:nth-child(even){background-color: #fafafa;}
+
+#employeetable tr:hover {background-color: #ddd;}
+
+#employeetable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color:blue;
+    color: white;
+}
+
+.create {
+    display: flex;
+    justify-content: flex-end;
+}
+.create .createButton {
+    /* padding-top , gap between navbar and button */
+    padding-top: 10px; 
+    color:black;
+    border-color:red;
+    border-radius: 87px;
+    border-width: 0px;
+    border-style:groove;
+}
+.datepicker {
+    width: 40%;
+}
+/* .deneme {
+    display: flex;
+    justify-content: space-evenly;
+} */
+/* .model-dialog {
+    max-width: 1000px;
+    width: 750px;
+    margin: auto;
+} */
+

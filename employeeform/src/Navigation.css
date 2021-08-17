@@ -1,0 +1,25 @@
+nav ul{
+    margin-top: 3%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  nav ul li{
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: #6e89ff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }  
+  nav ul li a.active,
+  nav ul li a:hover{
+    color: #111;
+    background: rgb(255, 255, 255);
+  }
